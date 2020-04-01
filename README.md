@@ -1,3 +1,6 @@
+**Note: this was a little hack I put together for a C project I was working on.
+VSCode's remote development feature is now a better solution so I don't anticipate updating this repository.**
+
 # Configuration for debugging on WSL with VS Code
 
 This repository demonstrates one way to configure Visual Studio Code to debug command-line applications running on the Windows Subsystem for Linux (WSL) with GDB.
