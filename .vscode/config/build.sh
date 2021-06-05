@@ -1,5 +1,5 @@
-#!/bin/bash
-TEMPLATE=$(cat .vscode/config/launchtemplate.json)
-echo "${TEMPLATE//%%WD%%/$(pwd)}" > .vscode/launch.json
+#!/bin/sh
+
+sed -i "s,%%WD%%,$(pwd),g" .vscode/launch.json
 
 make
